@@ -9,5 +9,5 @@ El estudiante creará un diagrama ER para expresar entidades y relaciones, para 
 Para modelar una base de datos relacional usando Eloquent.
 
 
-![Logo](diagrama.png)
+![Logo](diagrama.PNG)
 

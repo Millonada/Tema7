@@ -13,5 +13,6 @@ class GrupoSeeder extends Seeder
     public function run(): void
     {
         //
+        factory();
     }
 }

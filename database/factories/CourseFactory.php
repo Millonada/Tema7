@@ -2,6 +2,7 @@
 
 namespace Database\Factories;
 
+use App\Models\Kit;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
@@ -17,7 +18,10 @@ class CourseFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            'name'=>fake()->name(),
+            'kit_id'=>function(){
+                return factory(Kit::class)->create()->id;
+            },
         ];
     }
 }
